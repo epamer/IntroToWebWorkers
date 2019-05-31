@@ -1,0 +1,27 @@
+body {
+    font-size: 1rem;
+  }
+  
+  #input {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  #input + label {
+    display: inline-block;
+    background-color: #ccc;
+    padding: 0.5rem .75em;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  #input:focus + label,
+  #input + label:hover {
+    background-color: #b7b7b7;
+  }
+  .galery {
+    padding: 20px 5px;
+  }
+  .galery img {
+    width: 25vw;
+  }
